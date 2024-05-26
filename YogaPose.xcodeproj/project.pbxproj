@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6301F9102BFD904B005D9E3A /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6301F90F2BFD904B005D9E3A /* SplashScreen.swift */; };
+		6301F9122BFD9AEE005D9E3A /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6301F9112BFD9AEE005D9E3A /* TutorialView.swift */; };
+		6301F9142BFD9D58005D9E3A /* StepComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6301F9132BFD9D58005D9E3A /* StepComponent.swift */; };
+		6301F9172BFD9F55005D9E3A /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6301F9162BFD9F55005D9E3A /* Step.swift */; };
+		6330BF272BF6459000C5BABA /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6330BF262BF6459000C5BABA /* CameraView.swift */; };
+		6335C3A32BFDC1360075092B /* ResultScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6335C3A22BFDC1360075092B /* ResultScreen.swift */; };
+		636560632BF70F94007E868B /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636560622BF70F94007E868B /* CameraViewController.swift */; };
+		637665412BF3A747001E62D7 /* YogaPoseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637665402BF3A747001E62D7 /* YogaPoseApp.swift */; };
+		637665432BF3A747001E62D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637665422BF3A747001E62D7 /* ContentView.swift */; };
+		637665472BF3A748001E62D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 637665462BF3A748001E62D7 /* Assets.xcassets */; };
+		6376654A2BF3A748001E62D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 637665492BF3A748001E62D7 /* Preview Assets.xcassets */; };
+		637665542BF3A748001E62D7 /* YogaPoseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637665532BF3A748001E62D7 /* YogaPoseTests.swift */; };
+		6376655E2BF3A748001E62D7 /* YogaPoseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6376655D2BF3A748001E62D7 /* YogaPoseUITests.swift */; };
+		637665602BF3A748001E62D7 /* YogaPoseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6376655F2BF3A748001E62D7 /* YogaPoseUITestsLaunchTests.swift */; };
+		638ED1A32BFC564100564D9B /* TadasanaPoseFinal.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 638ED1A22BFC564100564D9B /* TadasanaPoseFinal.mlmodel */; };
+		63CFA91F2BF7ACD000130152 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CFA91E2BF7ACD000130152 /* MainView.swift */; };
+		63D4C16F2BFA30E7009A64D0 /* TimerYoga.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D4C16E2BFA30E7009A64D0 /* TimerYoga.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		637665502BF3A748001E62D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 637665352BF3A747001E62D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6376653C2BF3A747001E62D7;
+			remoteInfo = YogaPose;
+		};
+		6376655A2BF3A748001E62D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 637665352BF3A747001E62D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6376653C2BF3A747001E62D7;
+			remoteInfo = YogaPose;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6301F90F2BFD904B005D9E3A /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		6301F9112BFD9AEE005D9E3A /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
+		6301F9132BFD9D58005D9E3A /* StepComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepComponent.swift; sourceTree = "<group>"; };
+		6301F9162BFD9F55005D9E3A /* Step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
+		6330BF262BF6459000C5BABA /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		6335C3A22BFDC1360075092B /* ResultScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultScreen.swift; sourceTree = "<group>"; };
+		636560622BF70F94007E868B /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		6376653D2BF3A747001E62D7 /* YogaPose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YogaPose.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		637665402BF3A747001E62D7 /* YogaPoseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaPoseApp.swift; sourceTree = "<group>"; };
+		637665422BF3A747001E62D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		637665462BF3A748001E62D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		637665492BF3A748001E62D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6376654F2BF3A748001E62D7 /* YogaPoseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YogaPoseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		637665532BF3A748001E62D7 /* YogaPoseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaPoseTests.swift; sourceTree = "<group>"; };
+		637665592BF3A748001E62D7 /* YogaPoseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YogaPoseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6376655D2BF3A748001E62D7 /* YogaPoseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaPoseUITests.swift; sourceTree = "<group>"; };
+		6376655F2BF3A748001E62D7 /* YogaPoseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaPoseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		638ED1A22BFC564100564D9B /* TadasanaPoseFinal.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TadasanaPoseFinal.mlmodel; sourceTree = "<group>"; };
+		63CFA91E2BF7ACD000130152 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		63D4C16E2BFA30E7009A64D0 /* TimerYoga.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerYoga.swift; sourceTree = "<group>"; };
+		63FB08E12BF6F07A00F450FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6376653A2BF3A747001E62D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6376654C2BF3A748001E62D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637665562BF3A748001E62D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6301F9152BFD9F43005D9E3A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6301F9162BFD9F55005D9E3A /* Step.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		636560642BF70FF8007E868B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				6301F9132BFD9D58005D9E3A /* StepComponent.swift */,
+				636560622BF70F94007E868B /* CameraViewController.swift */,
+				63D4C16E2BFA30E7009A64D0 /* TimerYoga.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		636560652BF71003007E868B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6330BF262BF6459000C5BABA /* CameraView.swift */,
+				63CFA91E2BF7ACD000130152 /* MainView.swift */,
+				6301F90F2BFD904B005D9E3A /* SplashScreen.swift */,
+				6335C3A22BFDC1360075092B /* ResultScreen.swift */,
+				6301F9112BFD9AEE005D9E3A /* TutorialView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		637665342BF3A747001E62D7 = {
+			isa = PBXGroup;
+			children = (
+				6376653F2BF3A747001E62D7 /* YogaPose */,
+				637665522BF3A748001E62D7 /* YogaPoseTests */,
+				6376655C2BF3A748001E62D7 /* YogaPoseUITests */,
+				6376653E2BF3A747001E62D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6376653E2BF3A747001E62D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6376653D2BF3A747001E62D7 /* YogaPose.app */,
+				6376654F2BF3A748001E62D7 /* YogaPoseTests.xctest */,
+				637665592BF3A748001E62D7 /* YogaPoseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6376653F2BF3A747001E62D7 /* YogaPose */ = {
+			isa = PBXGroup;
+			children = (
+				63FB08E12BF6F07A00F450FF /* Info.plist */,
+				638ED1A22BFC564100564D9B /* TadasanaPoseFinal.mlmodel */,
+				637665402BF3A747001E62D7 /* YogaPoseApp.swift */,
+				637665422BF3A747001E62D7 /* ContentView.swift */,
+				636560652BF71003007E868B /* View */,
+				6301F9152BFD9F43005D9E3A /* Model */,
+				636560642BF70FF8007E868B /* Helper */,
+				637665462BF3A748001E62D7 /* Assets.xcassets */,
+				637665482BF3A748001E62D7 /* Preview Content */,
+			);
+			path = YogaPose;
+			sourceTree = "<group>";
+		};
+		637665482BF3A748001E62D7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				637665492BF3A748001E62D7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		637665522BF3A748001E62D7 /* YogaPoseTests */ = {
+			isa = PBXGroup;
+			children = (
+				637665532BF3A748001E62D7 /* YogaPoseTests.swift */,
+			);
+			path = YogaPoseTests;
+			sourceTree = "<group>";
+		};
+		6376655C2BF3A748001E62D7 /* YogaPoseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6376655D2BF3A748001E62D7 /* YogaPoseUITests.swift */,
+				6376655F2BF3A748001E62D7 /* YogaPoseUITestsLaunchTests.swift */,
+			);
+			path = YogaPoseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6376653C2BF3A747001E62D7 /* YogaPose */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637665632BF3A748001E62D7 /* Build configuration list for PBXNativeTarget "YogaPose" */;
+			buildPhases = (
+				637665392BF3A747001E62D7 /* Sources */,
+				6376653A2BF3A747001E62D7 /* Frameworks */,
+				6376653B2BF3A747001E62D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YogaPose;
+			productName = YogaPose;
+			productReference = 6376653D2BF3A747001E62D7 /* YogaPose.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6376654E2BF3A748001E62D7 /* YogaPoseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637665662BF3A748001E62D7 /* Build configuration list for PBXNativeTarget "YogaPoseTests" */;
+			buildPhases = (
+				6376654B2BF3A748001E62D7 /* Sources */,
+				6376654C2BF3A748001E62D7 /* Frameworks */,
+				6376654D2BF3A748001E62D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				637665512BF3A748001E62D7 /* PBXTargetDependency */,
+			);
+			name = YogaPoseTests;
+			productName = YogaPoseTests;
+			productReference = 6376654F2BF3A748001E62D7 /* YogaPoseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		637665582BF3A748001E62D7 /* YogaPoseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637665692BF3A748001E62D7 /* Build configuration list for PBXNativeTarget "YogaPoseUITests" */;
+			buildPhases = (
+				637665552BF3A748001E62D7 /* Sources */,
+				637665562BF3A748001E62D7 /* Frameworks */,
+				637665572BF3A748001E62D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6376655B2BF3A748001E62D7 /* PBXTargetDependency */,
+			);
+			name = YogaPoseUITests;
+			productName = YogaPoseUITests;
+			productReference = 637665592BF3A748001E62D7 /* YogaPoseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		637665352BF3A747001E62D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					6376653C2BF3A747001E62D7 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					6376654E2BF3A748001E62D7 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 6376653C2BF3A747001E62D7;
+					};
+					637665582BF3A748001E62D7 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 6376653C2BF3A747001E62D7;
+					};
+				};
+			};
+			buildConfigurationList = 637665382BF3A747001E62D7 /* Build configuration list for PBXProject "YogaPose" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 637665342BF3A747001E62D7;
+			productRefGroup = 6376653E2BF3A747001E62D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6376653C2BF3A747001E62D7 /* YogaPose */,
+				6376654E2BF3A748001E62D7 /* YogaPoseTests */,
+				637665582BF3A748001E62D7 /* YogaPoseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6376653B2BF3A747001E62D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6376654A2BF3A748001E62D7 /* Preview Assets.xcassets in Resources */,
+				637665472BF3A748001E62D7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6376654D2BF3A748001E62D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637665572BF3A748001E62D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		637665392BF3A747001E62D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6301F9172BFD9F55005D9E3A /* Step.swift in Sources */,
+				6301F9102BFD904B005D9E3A /* SplashScreen.swift in Sources */,
+				637665432BF3A747001E62D7 /* ContentView.swift in Sources */,
+				6301F9122BFD9AEE005D9E3A /* TutorialView.swift in Sources */,
+				6335C3A32BFDC1360075092B /* ResultScreen.swift in Sources */,
+				63CFA91F2BF7ACD000130152 /* MainView.swift in Sources */,
+				63D4C16F2BFA30E7009A64D0 /* TimerYoga.swift in Sources */,
+				636560632BF70F94007E868B /* CameraViewController.swift in Sources */,
+				638ED1A32BFC564100564D9B /* TadasanaPoseFinal.mlmodel in Sources */,
+				6301F9142BFD9D58005D9E3A /* StepComponent.swift in Sources */,
+				637665412BF3A747001E62D7 /* YogaPoseApp.swift in Sources */,
+				6330BF272BF6459000C5BABA /* CameraView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6376654B2BF3A748001E62D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637665542BF3A748001E62D7 /* YogaPoseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637665552BF3A748001E62D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637665602BF3A748001E62D7 /* YogaPoseUITestsLaunchTests.swift in Sources */,
+				6376655E2BF3A748001E62D7 /* YogaPoseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		637665512BF3A748001E62D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6376653C2BF3A747001E62D7 /* YogaPose */;
+			targetProxy = 637665502BF3A748001E62D7 /* PBXContainerItemProxy */;
+		};
+		6376655B2BF3A748001E62D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6376653C2BF3A747001E62D7 /* YogaPose */;
+			targetProxy = 6376655A2BF3A748001E62D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		637665612BF3A748001E62D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		637665622BF3A748001E62D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		637665642BF3A748001E62D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YogaPose/Preview Content\"";
+				DEVELOPMENT_TEAM = UC6TG39XPP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YogaPose/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to the camera to analyze your yoga poses in real-time.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.YogaPose;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		637665652BF3A748001E62D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YogaPose/Preview Content\"";
+				DEVELOPMENT_TEAM = UC6TG39XPP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YogaPose/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to the camera to analyze your yoga poses in real-time.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.YogaPose;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		637665672BF3A748001E62D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UC6TG39XPP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.YogaPoseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YogaPose.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YogaPose";
+			};
+			name = Debug;
+		};
+		637665682BF3A748001E62D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UC6TG39XPP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.YogaPoseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YogaPose.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YogaPose";
+			};
+			name = Release;
+		};
+		6376656A2BF3A748001E62D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UC6TG39XPP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.YogaPoseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YogaPose;
+			};
+			name = Debug;
+		};
+		6376656B2BF3A748001E62D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UC6TG39XPP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.YogaPoseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YogaPose;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		637665382BF3A747001E62D7 /* Build configuration list for PBXProject "YogaPose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637665612BF3A748001E62D7 /* Debug */,
+				637665622BF3A748001E62D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637665632BF3A748001E62D7 /* Build configuration list for PBXNativeTarget "YogaPose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637665642BF3A748001E62D7 /* Debug */,
+				637665652BF3A748001E62D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637665662BF3A748001E62D7 /* Build configuration list for PBXNativeTarget "YogaPoseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637665672BF3A748001E62D7 /* Debug */,
+				637665682BF3A748001E62D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637665692BF3A748001E62D7 /* Build configuration list for PBXNativeTarget "YogaPoseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6376656A2BF3A748001E62D7 /* Debug */,
+				6376656B2BF3A748001E62D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 637665352BF3A747001E62D7 /* Project object */;
+}
