@@ -66,11 +66,10 @@ class CameraViewController: UIViewController, AVCaptureVideoDataOutputSampleBuff
        
         videoOutput.setSampleBufferDelegate(self, queue: DispatchQueue(label: "videoQueue"))
         
-//        videoOutput.connection(with: .video)?.videoOrientation = .landscapeRight
-        //mau bikin cameranya itu capture landscape!!!
+
         captureSession.addOutput(videoOutput)
         
-        //AVCaptureVideoPreviewLayer: Displays the camera feed.
+       
         let previewLayer = AVCaptureVideoPreviewLayer(session: captureSession)
         previewLayer.videoGravity = .resizeAspectFill
         previewLayer.connection?.videoOrientation = .landscapeRight
@@ -80,7 +79,7 @@ class CameraViewController: UIViewController, AVCaptureVideoDataOutputSampleBuff
 
         view.layer.addSublayer(previewLayer)
         
-        //captureSession.startRunning(): Starts the camera session.
+        
         captureSession.startRunning()
         
     }
@@ -92,11 +91,10 @@ class CameraViewController: UIViewController, AVCaptureVideoDataOutputSampleBuff
             
             self.isProcessingFrames = false
             print(self.isProcessingFrames)
-            if self.poseStatus.wrappedValue == "Tadasana Wrong Pose" || self.poseStatus.wrappedValue == "Other" {
+            if self.poseStatus.wrappedValue == "Tadasana Wrong Pose"  {
                 DispatchQueue.main.async {
                     self.desc.wrappedValue = "Incorrect pose. Please try again."
                     self.retryFrameProcessing()
-                    print("Final is incorrect")
                 }
             } else if self.poseStatus.wrappedValue == "Tadasana Right Pose" {
                 DispatchQueue.main.async {
@@ -106,21 +104,19 @@ class CameraViewController: UIViewController, AVCaptureVideoDataOutputSampleBuff
                         self.navigateToResultScreen.wrappedValue = true
                         
                     }
-                    print("Final is correct")
                 }
             }
         }
     }
     
     func retryFrameProcessing() {
-        // Restart frame processing
         timer.start(minutes: 0, seconds: 6)
         DispatchQueue.main.asyncAfter(deadline: .now() + 6) {
             self.navigateToResultScreen.wrappedValue = true
             
         }
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 6) {  // Adds a 2-second delay before retrying
+        DispatchQueue.main.asyncAfter(deadline: .now() + 6) {
             self.desc.wrappedValue = "Let's do Pose as below"
             self.captureSession.startRunning()
             self.startFrameProcessingTimer()
@@ -129,19 +125,17 @@ class CameraViewController: UIViewController, AVCaptureVideoDataOutputSampleBuff
         }
     }
     
-    //captureOutput: Called whenever a new video frame is captured.
+   
     func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection) {
-        //CMSampleBufferGetImageBuffer(sampleBuffer): Converts the sample buffer to a pixel buffer.
+       
         guard let pixelBuffer = CMSampleBufferGetImageBuffer(sampleBuffer) else { return }
         if self.isProcessingFrames{
-            classifyPose(pixelBuffer: pixelBuffer) //classifyPose: Runs the Core ML model on the pixel buffer.
-            //            print("Classifty Otw")
-            //        print("2")
+            classifyPose(pixelBuffer: pixelBuffer)
+           
         }
     }
     
-    //classifyPose(pixelBuffer: CVPixelBuffer): Classifies the current video frame.
-    //belum ganti nama identifier
+   
     func classifyPose(pixelBuffer: CVPixelBuffer) {
         print(self.isProcessingFrames)
         if isProcessingFrames{
@@ -150,7 +144,6 @@ class CameraViewController: UIViewController, AVCaptureVideoDataOutputSampleBuff
             let request = VNCoreMLRequest(model: model) { (request, error) in
                 if let results = request.results as? [VNClassificationObservation],
                    let topResult = results.first {
-                    print("Ini classification")
                     DispatchQueue.main.async {
                         let confidence = topResult.confidence
                         
