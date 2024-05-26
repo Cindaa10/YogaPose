@@ -90,8 +90,7 @@ class CameraViewController: UIViewController, AVCaptureVideoDataOutputSampleBuff
         frameProcessingTimer = Timer.scheduledTimer(withTimeInterval: 10.0, repeats: false) { _ in
             
             self.isProcessingFrames = false
-            print(self.isProcessingFrames)
-            if self.poseStatus.wrappedValue == "Tadasana Wrong Pose"  {
+            if self.poseStatus.wrappedValue == "Tadasana Wrong Pose" || self.poseStatus.wrappedValue == "Unknown" {
                 DispatchQueue.main.async {
                     self.desc.wrappedValue = "Incorrect pose. Please try again."
                     self.retryFrameProcessing()
@@ -111,10 +110,7 @@ class CameraViewController: UIViewController, AVCaptureVideoDataOutputSampleBuff
     
     func retryFrameProcessing() {
         timer.start(minutes: 0, seconds: 6)
-        DispatchQueue.main.asyncAfter(deadline: .now() + 6) {
-            self.navigateToResultScreen.wrappedValue = true
-            
-        }
+
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 6) {
             self.desc.wrappedValue = "Let's do Pose as below"
@@ -137,7 +133,6 @@ class CameraViewController: UIViewController, AVCaptureVideoDataOutputSampleBuff
     
    
     func classifyPose(pixelBuffer: CVPixelBuffer) {
-        print(self.isProcessingFrames)
         if isProcessingFrames{
             guard let model = try? VNCoreMLModel(for: self.model.model) else { return }
             
@@ -150,7 +145,7 @@ class CameraViewController: UIViewController, AVCaptureVideoDataOutputSampleBuff
                         if confidence >= 0.8 {
                             if self.isProcessingFrames{
                                 self.poseStatus.wrappedValue = topResult.identifier
-                                print(self.poseStatus.wrappedValue) 
+                                
                             }
                         }
                         

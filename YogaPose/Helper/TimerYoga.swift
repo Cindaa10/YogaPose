@@ -56,7 +56,6 @@ class TimerYoga: ObservableObject {
                 self.seconds = String(format: "%02d", second)
                 
                 remainingTime = String(format: "%02d:%02d", minute, second)
-                print(remainingTime)
             }
         }
     }
