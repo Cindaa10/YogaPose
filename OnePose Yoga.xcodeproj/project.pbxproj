@@ -51,14 +51,14 @@
 		6330BF262BF6459000C5BABA /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		6335C3A22BFDC1360075092B /* ResultScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultScreen.swift; sourceTree = "<group>"; };
 		636560622BF70F94007E868B /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
-		6376653D2BF3A747001E62D7 /* YogaPose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YogaPose.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6376653D2BF3A747001E62D7 /* OnePose Yoga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OnePose Yoga.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		637665402BF3A747001E62D7 /* YogaPoseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaPoseApp.swift; sourceTree = "<group>"; };
 		637665422BF3A747001E62D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		637665462BF3A748001E62D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		637665492BF3A748001E62D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6376654F2BF3A748001E62D7 /* YogaPoseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YogaPoseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6376654F2BF3A748001E62D7 /* OnePose YogaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OnePose YogaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		637665532BF3A748001E62D7 /* YogaPoseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaPoseTests.swift; sourceTree = "<group>"; };
-		637665592BF3A748001E62D7 /* YogaPoseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YogaPoseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		637665592BF3A748001E62D7 /* OnePose YogaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OnePose YogaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6376655D2BF3A748001E62D7 /* YogaPoseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaPoseUITests.swift; sourceTree = "<group>"; };
 		6376655F2BF3A748001E62D7 /* YogaPoseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaPoseUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		638ED1A22BFC564100564D9B /* TadasanaPoseFinal.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TadasanaPoseFinal.mlmodel; sourceTree = "<group>"; };
@@ -135,9 +135,9 @@
 		6376653E2BF3A747001E62D7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6376653D2BF3A747001E62D7 /* YogaPose.app */,
-				6376654F2BF3A748001E62D7 /* YogaPoseTests.xctest */,
-				637665592BF3A748001E62D7 /* YogaPoseUITests.xctest */,
+				6376653D2BF3A747001E62D7 /* OnePose Yoga.app */,
+				6376654F2BF3A748001E62D7 /* OnePose YogaTests.xctest */,
+				637665592BF3A748001E62D7 /* OnePose YogaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -186,9 +186,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6376653C2BF3A747001E62D7 /* YogaPose */ = {
+		6376653C2BF3A747001E62D7 /* OnePose Yoga */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 637665632BF3A748001E62D7 /* Build configuration list for PBXNativeTarget "YogaPose" */;
+			buildConfigurationList = 637665632BF3A748001E62D7 /* Build configuration list for PBXNativeTarget "OnePose Yoga" */;
 			buildPhases = (
 				637665392BF3A747001E62D7 /* Sources */,
 				6376653A2BF3A747001E62D7 /* Frameworks */,
@@ -198,14 +198,14 @@
 			);
 			dependencies = (
 			);
-			name = YogaPose;
+			name = "OnePose Yoga";
 			productName = YogaPose;
-			productReference = 6376653D2BF3A747001E62D7 /* YogaPose.app */;
+			productReference = 6376653D2BF3A747001E62D7 /* OnePose Yoga.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6376654E2BF3A748001E62D7 /* YogaPoseTests */ = {
+		6376654E2BF3A748001E62D7 /* OnePose YogaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 637665662BF3A748001E62D7 /* Build configuration list for PBXNativeTarget "YogaPoseTests" */;
+			buildConfigurationList = 637665662BF3A748001E62D7 /* Build configuration list for PBXNativeTarget "OnePose YogaTests" */;
 			buildPhases = (
 				6376654B2BF3A748001E62D7 /* Sources */,
 				6376654C2BF3A748001E62D7 /* Frameworks */,
@@ -216,14 +216,14 @@
 			dependencies = (
 				637665512BF3A748001E62D7 /* PBXTargetDependency */,
 			);
-			name = YogaPoseTests;
+			name = "OnePose YogaTests";
 			productName = YogaPoseTests;
-			productReference = 6376654F2BF3A748001E62D7 /* YogaPoseTests.xctest */;
+			productReference = 6376654F2BF3A748001E62D7 /* OnePose YogaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		637665582BF3A748001E62D7 /* YogaPoseUITests */ = {
+		637665582BF3A748001E62D7 /* OnePose YogaUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 637665692BF3A748001E62D7 /* Build configuration list for PBXNativeTarget "YogaPoseUITests" */;
+			buildConfigurationList = 637665692BF3A748001E62D7 /* Build configuration list for PBXNativeTarget "OnePose YogaUITests" */;
 			buildPhases = (
 				637665552BF3A748001E62D7 /* Sources */,
 				637665562BF3A748001E62D7 /* Frameworks */,
@@ -234,9 +234,9 @@
 			dependencies = (
 				6376655B2BF3A748001E62D7 /* PBXTargetDependency */,
 			);
-			name = YogaPoseUITests;
+			name = "OnePose YogaUITests";
 			productName = YogaPoseUITests;
-			productReference = 637665592BF3A748001E62D7 /* YogaPoseUITests.xctest */;
+			productReference = 637665592BF3A748001E62D7 /* OnePose YogaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -262,7 +262,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 637665382BF3A747001E62D7 /* Build configuration list for PBXProject "YogaPose" */;
+			buildConfigurationList = 637665382BF3A747001E62D7 /* Build configuration list for PBXProject "OnePose Yoga" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -275,9 +275,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6376653C2BF3A747001E62D7 /* YogaPose */,
-				6376654E2BF3A748001E62D7 /* YogaPoseTests */,
-				637665582BF3A748001E62D7 /* YogaPoseUITests */,
+				6376653C2BF3A747001E62D7 /* OnePose Yoga */,
+				6376654E2BF3A748001E62D7 /* OnePose YogaTests */,
+				637665582BF3A748001E62D7 /* OnePose YogaUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -350,12 +350,12 @@
 /* Begin PBXTargetDependency section */
 		637665512BF3A748001E62D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6376653C2BF3A747001E62D7 /* YogaPose */;
+			target = 6376653C2BF3A747001E62D7 /* OnePose Yoga */;
 			targetProxy = 637665502BF3A748001E62D7 /* PBXContainerItemProxy */;
 		};
 		6376655B2BF3A748001E62D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6376653C2BF3A747001E62D7 /* YogaPose */;
+			target = 6376653C2BF3A747001E62D7 /* OnePose Yoga */;
 			targetProxy = 6376655A2BF3A748001E62D7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -485,6 +485,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"YogaPose/Preview Content\"";
@@ -519,6 +520,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"YogaPose/Preview Content\"";
@@ -564,7 +566,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YogaPose.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YogaPose";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnePose Yoga.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OnePose Yoga";
 			};
 			name = Debug;
 		};
@@ -584,7 +586,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YogaPose.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YogaPose";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnePose Yoga.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OnePose Yoga";
 			};
 			name = Release;
 		};
@@ -627,7 +629,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		637665382BF3A747001E62D7 /* Build configuration list for PBXProject "YogaPose" */ = {
+		637665382BF3A747001E62D7 /* Build configuration list for PBXProject "OnePose Yoga" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				637665612BF3A748001E62D7 /* Debug */,
@@ -636,7 +638,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		637665632BF3A748001E62D7 /* Build configuration list for PBXNativeTarget "YogaPose" */ = {
+		637665632BF3A748001E62D7 /* Build configuration list for PBXNativeTarget "OnePose Yoga" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				637665642BF3A748001E62D7 /* Debug */,
@@ -645,7 +647,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		637665662BF3A748001E62D7 /* Build configuration list for PBXNativeTarget "YogaPoseTests" */ = {
+		637665662BF3A748001E62D7 /* Build configuration list for PBXNativeTarget "OnePose YogaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				637665672BF3A748001E62D7 /* Debug */,
@@ -654,7 +656,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		637665692BF3A748001E62D7 /* Build configuration list for PBXNativeTarget "YogaPoseUITests" */ = {
+		637665692BF3A748001E62D7 /* Build configuration list for PBXNativeTarget "OnePose YogaUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6376656A2BF3A748001E62D7 /* Debug */,
