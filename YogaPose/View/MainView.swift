@@ -22,7 +22,8 @@ struct MainView: View {
         NavigationStack {
             GeometryReader { geometry in
                 HStack {
-                    ZStack {
+                    ZStack { //TODO: - Mungkin instructionnya bisa dijadiin component di file terpisah biar ga terlalu rame/nested di main view 
+                        
                         Rectangle()
                             .fill(
                                 LinearGradient(gradient: Gradient(colors: [Color(hex: "7368A9"), Color(hex: "CCBAE0")]), startPoint: .top, endPoint: .bottom)
@@ -120,6 +121,7 @@ struct MainView: View {
     
 }
 
+//TODO: - ini bisa dijadiin helper aja
 extension Color {
     init(hex: String) {
         let scanner = Scanner(string: hex)

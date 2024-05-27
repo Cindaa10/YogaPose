@@ -15,7 +15,7 @@ struct SplashScreen: View {
             TutorialView()
         } else{
             ZStack{
-                NavigationLink(destination: MainView(), isActive: $showTutorial) {
+                NavigationLink(destination: MainView(), isActive: $showTutorial) { //TODO: - masih warning nih
                     EmptyView()
                 }
                 
